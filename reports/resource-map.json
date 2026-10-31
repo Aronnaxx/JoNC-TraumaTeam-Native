@@ -1,0 +1,10 @@
+{
+  "base\\cyberscript\\trauma_av.ent": "jttnative\\base\\cyberscript\\trauma_av.ent",
+  "workspot\\av_trauma_player_injured.workspot": "jttnative\\workspot\\av_trauma_player_injured.workspot",
+  "workspot\\av_trauma_player_seated.workspot": "jttnative\\workspot\\av_trauma_player_seated.workspot",
+  "workspot\\av_trauma_seated_npc_01.workspot": "jttnative\\workspot\\av_trauma_seated_npc_01.workspot",
+  "workspot\\av_trauma_seated_npc_02.workspot": "jttnative\\workspot\\av_trauma_seated_npc_02.workspot",
+  "workspot\\av_trauma_seated_npc_03.workspot": "jttnative\\workspot\\av_trauma_seated_npc_03.workspot",
+  "workspot\\av_trauma_seated_npc_injured.workspot": "jttnative\\workspot\\av_trauma_seated_npc_injured.workspot",
+  "workspot\\av_trauma_sergent_01.workspot": "jttnative\\workspot\\av_trauma_sergent_01.workspot"
+}

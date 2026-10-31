@@ -1,0 +1,10 @@
+{
+  "snapshot_files": 119,
+  "json_documents": 44,
+  "objectives": 12,
+  "named_node_kinds": 119,
+  "named_nodes": 1800,
+  "voices": 68,
+  "treatments": 4,
+  "runtime_parity": false
+}

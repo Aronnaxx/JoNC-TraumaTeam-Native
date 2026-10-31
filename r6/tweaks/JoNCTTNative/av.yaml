@@ -1,0 +1,3 @@
+JoNCTTNative.AV:
+  $base: Vehicle.q001_trauma_av
+  entityTemplatePath: jttnative\base\cyberscript\trauma_av.ent

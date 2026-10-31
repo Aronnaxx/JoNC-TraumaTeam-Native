@@ -1,0 +1,58 @@
+{
+  "name": "TraumaTeam Agent",
+  "x": -1334.804,
+  "y": 1742.393,
+  "z": 18.19,
+  "range": 10,
+  "faction": "faction_trauma",
+  "tag": "fixer_traumateam",
+  "exist": false,
+  "npcexist": false,
+  "tweakid": "Character.trauma_rare_officer_chao_ma",
+  "trigger": {
+    "always_enable": {
+      "name": "auto"
+    }
+  },
+  "requirement": [
+    [
+      "always_enable"
+    ]
+  ],
+  "spawn_action": [
+    {
+      "name": "wait_second",
+      "value": 2
+    },
+    {
+      "name": "entity_stop_movement",
+      "tag": "fixer_traumateam"
+    },
+    {
+      "name": "teleport",
+      "tag": "fixer_traumateam",
+      "position": "at",
+      "x": -1334.804,
+      "y": 1742.393,
+      "z": 18.19,
+      "pitch": 0,
+      "yaw": 167.49,
+      "roll": 0,
+      "group": false
+    },
+    {
+      "name": "play_custom_anim_entity",
+      "tag": "fixer_traumateam",
+      "anim": "stand__2h_back__01",
+      "workspot": "cyberscript_workspot_base",
+      "ent": "base\\cyberscript\\entity\\workspot_anim.ent",
+      "isinstant": true,
+      "unlockcamera": false,
+      "angle": true,
+      "pitch": 0,
+      "roll": 0,
+      "yaw": -12.51
+    }
+  ],
+  "despawn_action": []
+}

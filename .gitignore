@@ -1,0 +1,7 @@
+original/
+archive_src/legacy/
+archive_src/packed/
+archive_src/journal/
+__pycache__/
+*.zip
+reports/package-manifest.json

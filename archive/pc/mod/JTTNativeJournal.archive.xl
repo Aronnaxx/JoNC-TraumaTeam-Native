@@ -1,0 +1,8 @@
+journal:
+  - jttnative\journal\mission.journal
+streaming:
+  blocks:
+    - jttnative\all.streamingblock
+localization:
+  onscreens:
+    en-us: jttnative\localization\en-us.json

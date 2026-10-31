@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<bindings>
+<context name="Exploration" append="true">
+<action name="JTTNativeStart" map="JTTNativeMapStart" />
+<action name="JTTNativeAbort" map="JTTNativeMapAbort" />
+<action name="JTTNativeAction0" map="JTTNativeMapAction0" />
+<action name="JTTNativeAction1" map="JTTNativeMapAction1" />
+<action name="JTTNativeAction2" map="JTTNativeMapAction2" />
+<action name="JTTNativeAction3" map="JTTNativeMapAction3" />
+</context>
+<context name="Vehicle" append="true">
+<action name="JTTNativeStart" map="JTTNativeMapStart" />
+<action name="JTTNativeAbort" map="JTTNativeMapAbort" />
+<action name="JTTNativeAction0" map="JTTNativeMapAction0" />
+<action name="JTTNativeAction1" map="JTTNativeMapAction1" />
+<action name="JTTNativeAction2" map="JTTNativeMapAction2" />
+<action name="JTTNativeAction3" map="JTTNativeMapAction3" />
+</context>
+<acceptedEvents action="JTTNativeStart"><event name="BUTTON_PRESSED" /></acceptedEvents>
+<mapping name="JTTNativeMapStart" type="Button"><button id="IK_F8" /></mapping>
+<acceptedEvents action="JTTNativeAbort"><event name="BUTTON_PRESSED" /></acceptedEvents>
+<mapping name="JTTNativeMapAbort" type="Button"><button id="IK_F7" /></mapping>
+<acceptedEvents action="JTTNativeAction0"><event name="BUTTON_PRESSED" /></acceptedEvents>
+<mapping name="JTTNativeMapAction0" type="Button"><button id="IK_F1" /></mapping>
+<acceptedEvents action="JTTNativeAction1"><event name="BUTTON_PRESSED" /></acceptedEvents>
+<mapping name="JTTNativeMapAction1" type="Button"><button id="IK_F2" /></mapping>
+<acceptedEvents action="JTTNativeAction2"><event name="BUTTON_PRESSED" /></acceptedEvents>
+<mapping name="JTTNativeMapAction2" type="Button"><button id="IK_F3" /></mapping>
+<acceptedEvents action="JTTNativeAction3"><event name="BUTTON_PRESSED" /></acceptedEvents>
+<mapping name="JTTNativeMapAction3" type="Button"><button id="IK_F4" /></mapping>
+</bindings>

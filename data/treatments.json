@@ -1,0 +1,1409 @@
+[
+  {
+    "label": "Apply first aid (Safe)",
+    "icon": "MedicineIcon",
+    "min_delta": 5,
+    "max_delta": 10,
+    "duration": 1.5,
+    "timeline": [
+      {
+        "at": 0,
+        "action": {
+          "ent": "base\\cyberscript\\entity\\workspot_anim.ent",
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context_new_trigger_new"
+                ],
+                []
+              ],
+              "prop": {
+                "yaw": {
+                  "values": {
+                    "yaw": {
+                      "outputtype": "number",
+                      "offset_x": 0,
+                      "offset_y": 0,
+                      "offset_z": 0,
+                      "slot": "",
+                      "trigger": [],
+                      "key": "head_orientation",
+                      "tag": "player",
+                      "prop": "yaw",
+                      "action": [],
+                      "requirement": [],
+                      "relative": false,
+                      "type": "entity",
+                      "distance": 0
+                    }
+                  },
+                  "type": "number",
+                  "alpha": false,
+                  "text": "##yaw"
+                },
+                "anim": {
+                  "values": {
+                    "gang": {
+                      "value": "sit_bed__legs_on_floor__01__rh_shard__01__put_on_braindance__01",
+                      "type": "text",
+                      "requirement": [
+                        [
+                          "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context (1)_anim_gang_trigger_new"
+                        ]
+                      ],
+                      "outputtype": "text",
+                      "trigger": {
+                        "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context (1)_anim_gang_trigger_new": {
+                          "helperTitle": "Auto",
+                          "helper": "This trigger will be triggered without need anything (default)",
+                          "name": "auto",
+                          "context": []
+                        }
+                      },
+                      "action": []
+                    }
+                  },
+                  "type": "text",
+                  "alpha": false,
+                  "text": "##gang"
+                }
+              },
+              "trigger": {
+                "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context_new_trigger_new": {
+                  "helperTitle": "Player : Gender",
+                  "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                  "value": "female",
+                  "name": "player_gender"
+                }
+              },
+              "action": []
+            }
+          ],
+          "yaw": 0,
+          "angle": true,
+          "tag": "player",
+          "name": "play_custom_anim_entity",
+          "roll": 0,
+          "pitch": 0,
+          "workspot": "cyberscript_workspot_base",
+          "anim": "player_johnny__stand_table_lean0__2h_on_table__01__search_for_drugs__01",
+          "helperTitle": "Anim : Play Anim to Entity",
+          "helper": "This action will apply animation to entity",
+          "isinstant": true,
+          "unlockcamera": true
+        }
+      },
+      {
+        "at": 0.5,
+        "action": {
+          "value": 0.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 1.0,
+        "action": {
+          "value": 0.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 1.5,
+        "action": {
+          "value": 0.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 1.5,
+        "action": {
+          "tag": "player",
+          "helper": "This action will change animation to entity",
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Launch recovery and failsafe mode (High Risk/Success) (4)_change_anim_entity (8)_context_new_trigger_new"
+                ]
+              ],
+              "action": [],
+              "trigger": {
+                "trauma_rescue_Launch recovery and failsafe mode (High Risk/Success) (4)_change_anim_entity (8)_context_new_trigger_new": {
+                  "helperTitle": "Player : Gender",
+                  "value": "female",
+                  "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                  "name": "player_gender"
+                }
+              },
+              "prop": {
+                "anim": {
+                  "values": {
+                    "gang": {
+                      "value": "sit_ground_wall_lean180__2h_on_lap__q101_07c__01__shower__01",
+                      "action": [],
+                      "requirement": [],
+                      "type": "text",
+                      "trigger": [],
+                      "outputtype": "text"
+                    }
+                  },
+                  "type": "text",
+                  "alpha": false,
+                  "text": "##gang"
+                }
+              }
+            }
+          ],
+          "helperTitle": "Anim : Change Anim to Entity (if in same workspot)",
+          "anim": "q001_00c_malware_idle",
+          "isinstant": true,
+          "name": "change_anim_entity"
+        }
+      },
+      {
+        "at": 1.5,
+        "action": {
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Reboot the firmware (1)_action_new_context_new_trigger_new"
+                ]
+              ],
+              "action": [],
+              "trigger": {
+                "trauma_rescue_Reboot the firmware (1)_action_new_context_new_trigger_new": {
+                  "helperTitle": "Auto",
+                  "helper": "This trigger will be triggered without need anything (default)",
+                  "name": "auto"
+                }
+              },
+              "prop": {
+                "value": {
+                  "values": {
+                    "value": {
+                      "outputtype": "number",
+                      "action": [],
+                      "min": 5,
+                      "max": 10,
+                      "requirement": [
+                        []
+                      ],
+                      "trigger": {
+                        "trauma_rescue_Reboot the firmware (1)_action_new_context_new_prop_new_propvalue_new_trigger_new": {
+                          "helperTitle": "Auto",
+                          "helper": "This trigger will be triggered without need anything (default)",
+                          "name": "auto"
+                        }
+                      },
+                      "type": "random_range"
+                    }
+                  },
+                  "text": "##value",
+                  "alpha": false,
+                  "type": "number"
+                }
+              }
+            }
+          ],
+          "score": "trauma_mission",
+          "key": "victim_health",
+          "name": "operate_score",
+          "value": 1,
+          "operator": "+",
+          "helperTitle": "Score : Operate Score",
+          "helper": "This action will operate a value for a key of a score. Can be number, boolean or text \n Operator can be + | -| * | / | positive | negative | random (who take min and max value) | ceil | floor",
+          "min": 5,
+          "max": 10
+        }
+      },
+      {
+        "at": 1.5,
+        "action": {
+          "if_action": [
+            {
+              "if_action": [
+                {
+                  "speaker": "V",
+                  "value": "traumateam_evacuate_m",
+                  "name": "play_custom_sound_with_subtitle",
+                  "context": [
+                    {
+                      "requirement": [
+                        [
+                          "auto"
+                        ]
+                      ],
+                      "trigger": {
+                        "auto": {
+                          "helperTitle": "Player : Gender",
+                          "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                          "value": "female",
+                          "name": "player_gender"
+                        }
+                      },
+                      "prop": {
+                        "value": {
+                          "values": {
+                            "gang": {
+                              "value": "traumateam_evacuate_f",
+                              "type": "text",
+                              "requirement": [],
+                              "trigger": [],
+                              "outputtype": "text"
+                            }
+                          },
+                          "text": "##gang",
+                          "alpha": false,
+                          "type": "text"
+                        }
+                      }
+                    }
+                  ],
+                  "helperTitle": "Dialog : run Custom Sound Subtitle",
+                  "helper": "This action will fire a subtitle based on sound dialog on your bottom portion of the screen, The duration must complete in order for the next action to call. Type value just keep at 1 for now.",
+                  "type": 1,
+                  "target": "player"
+                }
+              ],
+              "else_action": [
+                {
+                  "helperTitle": "Dialog : run a dialog",
+                  "helper": "This action will fire a dialog if the trigger requirements are met",
+                  "dialog": "trauma_rescue",
+                  "name": "dialog"
+                }
+              ],
+              "helperTitle": "Logic : If",
+              "helper": "This action will check a trigger and execute IF actions if the trigger is OK or ELSE action if the trigger is not OK",
+              "trigger": {
+                "value": 50,
+                "name": "check_variable",
+                "operator": ">",
+                "helperTitle": "Score : Custom Variable",
+                "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+                "key": "victim_health",
+                "variable": "trauma_mission"
+              },
+              "name": "if"
+            }
+          ],
+          "else_action": [
+            {
+              "helperTitle": "Anim : Stop Anim for Entity",
+              "helper": "This action will stop animation to entity",
+              "tag": "player",
+              "name": "stop_anim_entity"
+            }
+          ],
+          "helperTitle": "Logic : If",
+          "helper": "This action will check a trigger and execute IF actions if the trigger is OK or ELSE action if the trigger is not OK",
+          "trigger": {
+            "name": "check_variable",
+            "value": 0,
+            "key": "victim_health",
+            "type": "number",
+            "helperTitle": "Score : Custom Variable",
+            "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+            "operator": ">",
+            "variable": "trauma_mission"
+          },
+          "name": "if"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Reboot the firmware (Low Risk/Success)",
+    "icon": "BraindanceIcon",
+    "min_delta": -2,
+    "max_delta": 15,
+    "duration": 4.5,
+    "timeline": [
+      {
+        "at": 0,
+        "action": {
+          "helperTitle": "UI : Show Hacking Progression bar",
+          "helper": "This action will hacking progression bar",
+          "value": "Systems will reboot...",
+          "name": "show_hack_animation"
+        }
+      },
+      {
+        "at": 0,
+        "action": {
+          "ent": "base\\cyberscript\\entity\\workspot_anim.ent",
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context_new_trigger_new"
+                ],
+                []
+              ],
+              "prop": {
+                "yaw": {
+                  "values": {
+                    "yaw": {
+                      "outputtype": "number",
+                      "offset_x": 0,
+                      "offset_y": 0,
+                      "offset_z": 0,
+                      "slot": "",
+                      "trigger": [],
+                      "key": "head_orientation",
+                      "tag": "player",
+                      "action": [],
+                      "type": "entity",
+                      "requirement": [],
+                      "relative": false,
+                      "prop": "yaw",
+                      "distance": 0
+                    }
+                  },
+                  "type": "number",
+                  "alpha": false,
+                  "text": "##yaw"
+                },
+                "anim": {
+                  "values": {
+                    "gang": {
+                      "value": "sit_bed__legs_on_floor__01__rh_shard__01__put_on_braindance__01",
+                      "type": "text",
+                      "requirement": [
+                        [
+                          "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context (1)_anim_gang_trigger_new"
+                        ]
+                      ],
+                      "outputtype": "text",
+                      "trigger": {
+                        "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context (1)_anim_gang_trigger_new": {
+                          "helperTitle": "Auto",
+                          "helper": "This trigger will be triggered without need anything (default)",
+                          "name": "auto",
+                          "context": []
+                        }
+                      },
+                      "action": []
+                    }
+                  },
+                  "text": "##gang",
+                  "alpha": false,
+                  "type": "text"
+                }
+              },
+              "trigger": {
+                "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context_new_trigger_new": {
+                  "helperTitle": "Player : Gender",
+                  "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                  "value": "female",
+                  "name": "player_gender"
+                }
+              },
+              "action": []
+            }
+          ],
+          "yaw": 0,
+          "angle": true,
+          "tag": "player",
+          "name": "play_custom_anim_entity",
+          "roll": 0,
+          "pitch": 0,
+          "workspot": "cyberscript_workspot_base",
+          "anim": "player_johnny__stand_table_lean0__2h_on_table__01__search_for_drugs__01",
+          "helperTitle": "Anim : Play Anim to Entity",
+          "helper": "This action will apply animation to entity",
+          "isinstant": true,
+          "unlockcamera": true
+        }
+      },
+      {
+        "at": 1.5,
+        "action": {
+          "value": 1.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 1.5,
+        "action": {
+          "value": 50,
+          "text": "Rebooting firmware...",
+          "helperTitle": "UI : Set Hacking Progression bar percentage",
+          "helper": "This action will set Hacking Progression bar percentage. Text is optionnal, leave blank if not used",
+          "name": "change_hack_animation_percent"
+        }
+      },
+      {
+        "at": 4.0,
+        "action": {
+          "value": 2.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 4.0,
+        "action": {
+          "value": 100,
+          "text": "Firmware reset !",
+          "helperTitle": "UI : Set Hacking Progression bar percentage",
+          "helper": "This action will set Hacking Progression bar percentage. Text is optionnal, leave blank if not used",
+          "name": "change_hack_animation_percent"
+        }
+      },
+      {
+        "at": 4.5,
+        "action": {
+          "value": 0.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 4.5,
+        "action": {
+          "tag": "player",
+          "helper": "This action will change animation to entity",
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Launch recovery and failsafe mode (High Risk/Success) (4)_change_anim_entity (8)_context_new_trigger_new"
+                ]
+              ],
+              "action": [],
+              "trigger": {
+                "trauma_rescue_Launch recovery and failsafe mode (High Risk/Success) (4)_change_anim_entity (8)_context_new_trigger_new": {
+                  "helperTitle": "Player : Gender",
+                  "value": "female",
+                  "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                  "name": "player_gender"
+                }
+              },
+              "prop": {
+                "anim": {
+                  "values": {
+                    "gang": {
+                      "value": "sit_ground_wall_lean180__2h_on_lap__q101_07c__01__shower__01",
+                      "action": [],
+                      "requirement": [],
+                      "type": "text",
+                      "trigger": [],
+                      "outputtype": "text"
+                    }
+                  },
+                  "text": "##gang",
+                  "alpha": false,
+                  "type": "text"
+                }
+              }
+            }
+          ],
+          "helperTitle": "Anim : Change Anim to Entity (if in same workspot)",
+          "anim": "q001_00c_malware_idle",
+          "isinstant": true,
+          "name": "change_anim_entity"
+        }
+      },
+      {
+        "at": 4.5,
+        "action": {
+          "helperTitle": "UI : Hide Hacking Progression bar",
+          "helper": "This action will hide Hacking Progression bar",
+          "name": "hide_hack_animation"
+        }
+      },
+      {
+        "at": 4.5,
+        "action": {
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Reboot the firmware (1)_action_new_context_new_trigger_new"
+                ]
+              ],
+              "action": [],
+              "trigger": {
+                "trauma_rescue_Reboot the firmware (1)_action_new_context_new_trigger_new": {
+                  "helperTitle": "Auto",
+                  "helper": "This trigger will be triggered without need anything (default)",
+                  "name": "auto"
+                }
+              },
+              "prop": {
+                "value": {
+                  "values": {
+                    "value": {
+                      "outputtype": "number",
+                      "requirement": [
+                        []
+                      ],
+                      "action": [],
+                      "max": 15,
+                      "min": -2,
+                      "trigger": {
+                        "trauma_rescue_Reboot the firmware (1)_action_new_context_new_prop_new_propvalue_new_trigger_new": {
+                          "helperTitle": "Auto",
+                          "helper": "This trigger will be triggered without need anything (default)",
+                          "name": "auto"
+                        }
+                      },
+                      "type": "random_range"
+                    }
+                  },
+                  "type": "number",
+                  "alpha": false,
+                  "text": "##value"
+                }
+              }
+            }
+          ],
+          "score": "trauma_mission",
+          "key": "victim_health",
+          "name": "operate_score",
+          "value": 1,
+          "operator": "+",
+          "helperTitle": "Score : Operate Score",
+          "helper": "This action will operate a value for a key of a score. Can be number, boolean or text \n Operator can be + | -| * | / | positive | negative | random (who take min and max value) | ceil | floor",
+          "max": 5,
+          "min": 0
+        }
+      },
+      {
+        "at": 4.5,
+        "action": {
+          "if_action": [
+            {
+              "if_action": [
+                {
+                  "speaker": "V",
+                  "value": "traumateam_evacuate_m",
+                  "target": "player",
+                  "type": 1,
+                  "helperTitle": "Dialog : run Custom Sound Subtitle",
+                  "helper": "This action will fire a subtitle based on sound dialog on your bottom portion of the screen, The duration must complete in order for the next action to call. Type value just keep at 1 for now.",
+                  "context": [
+                    {
+                      "requirement": [
+                        [
+                          "auto"
+                        ]
+                      ],
+                      "trigger": {
+                        "auto": {
+                          "helperTitle": "Player : Gender",
+                          "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                          "value": "female",
+                          "name": "player_gender"
+                        }
+                      },
+                      "prop": {
+                        "value": {
+                          "values": {
+                            "gang": {
+                              "value": "traumateam_evacuate_f",
+                              "type": "text",
+                              "requirement": [],
+                              "trigger": [],
+                              "outputtype": "text"
+                            }
+                          },
+                          "type": "text",
+                          "alpha": false,
+                          "text": "##gang"
+                        }
+                      }
+                    }
+                  ],
+                  "name": "play_custom_sound_with_subtitle"
+                }
+              ],
+              "else_action": [
+                {
+                  "helperTitle": "Dialog : run a dialog",
+                  "helper": "This action will fire a dialog if the trigger requirements are met",
+                  "dialog": "trauma_rescue",
+                  "name": "dialog"
+                }
+              ],
+              "helperTitle": "Logic : If",
+              "helper": "This action will check a trigger and execute IF actions if the trigger is OK or ELSE action if the trigger is not OK",
+              "trigger": {
+                "value": 50,
+                "name": "check_variable",
+                "operator": ">",
+                "helperTitle": "Score : Custom Variable",
+                "key": "victim_health",
+                "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+                "variable": "trauma_mission"
+              },
+              "name": "if"
+            }
+          ],
+          "else_action": [
+            {
+              "helperTitle": "Anim : Stop Anim for Entity",
+              "helper": "This action will stop animation to entity",
+              "tag": "player",
+              "name": "stop_anim_entity"
+            }
+          ],
+          "helperTitle": "Logic : If",
+          "helper": "This action will check a trigger and execute IF actions if the trigger is OK or ELSE action if the trigger is not OK",
+          "trigger": {
+            "name": "check_variable",
+            "value": 0,
+            "type": "number",
+            "operator": ">",
+            "helperTitle": "Score : Custom Variable",
+            "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+            "key": "victim_health",
+            "variable": "trauma_mission"
+          },
+          "name": "if"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Apply trauma hotfix to the secure boot (Medium Risk/Success)",
+    "icon": "HackingIcon",
+    "min_delta": -5,
+    "max_delta": 20,
+    "duration": 2.5,
+    "timeline": [
+      {
+        "at": 0,
+        "action": {
+          "helperTitle": "UI : Show Hacking Progression bar",
+          "helper": "This action will hacking progression bar",
+          "value": "Applying Hotfix...",
+          "name": "show_hack_animation"
+        }
+      },
+      {
+        "at": 0,
+        "action": {
+          "ent": "base\\cyberscript\\entity\\workspot_anim.ent",
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context_new_trigger_new"
+                ],
+                []
+              ],
+              "prop": {
+                "yaw": {
+                  "values": {
+                    "yaw": {
+                      "outputtype": "number",
+                      "offset_x": 0,
+                      "offset_y": 0,
+                      "offset_z": 0,
+                      "slot": "",
+                      "trigger": [],
+                      "key": "head_orientation",
+                      "tag": "player",
+                      "action": [],
+                      "type": "entity",
+                      "requirement": [],
+                      "relative": false,
+                      "prop": "yaw",
+                      "distance": 0
+                    }
+                  },
+                  "type": "number",
+                  "alpha": false,
+                  "text": "##yaw"
+                },
+                "anim": {
+                  "values": {
+                    "gang": {
+                      "value": "sit_bed__legs_on_floor__01__rh_shard__01__put_on_braindance__01",
+                      "type": "text",
+                      "requirement": [
+                        [
+                          "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context (1)_anim_gang_trigger_new"
+                        ]
+                      ],
+                      "outputtype": "text",
+                      "trigger": {
+                        "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context (1)_anim_gang_trigger_new": {
+                          "helperTitle": "Auto",
+                          "helper": "This trigger will be triggered without need anything (default)",
+                          "name": "auto",
+                          "context": []
+                        }
+                      },
+                      "action": []
+                    }
+                  },
+                  "text": "##gang",
+                  "alpha": false,
+                  "type": "text"
+                }
+              },
+              "trigger": {
+                "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context_new_trigger_new": {
+                  "helperTitle": "Player : Gender",
+                  "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                  "value": "female",
+                  "name": "player_gender"
+                }
+              },
+              "action": []
+            }
+          ],
+          "yaw": 0,
+          "angle": true,
+          "tag": "player",
+          "name": "play_custom_anim_entity",
+          "roll": 0,
+          "pitch": 0,
+          "workspot": "cyberscript_workspot_base",
+          "anim": "player_johnny__stand_table_lean0__2h_on_table__01__search_for_drugs__01",
+          "helperTitle": "Anim : Play Anim to Entity",
+          "helper": "This action will apply animation to entity",
+          "isinstant": true,
+          "unlockcamera": true
+        }
+      },
+      {
+        "at": 0.5,
+        "action": {
+          "value": 0.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 0.5,
+        "action": {
+          "value": 50,
+          "text": "Tr@uMaT€@m v1.1.5 hotfix rebooting...",
+          "helperTitle": "UI : Set Hacking Progression bar percentage",
+          "helper": "This action will set Hacking Progression bar percentage. Text is optionnal, leave blank if not used",
+          "name": "change_hack_animation_percent"
+        }
+      },
+      {
+        "at": 2.0,
+        "action": {
+          "value": 1.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 2.0,
+        "action": {
+          "value": 100,
+          "text": "Hotfix applied !",
+          "helperTitle": "UI : Set Hacking Progression bar percentage",
+          "helper": "This action will set Hacking Progression bar percentage. Text is optionnal, leave blank if not used",
+          "name": "change_hack_animation_percent"
+        }
+      },
+      {
+        "at": 2.5,
+        "action": {
+          "value": 0.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 2.5,
+        "action": {
+          "tag": "player",
+          "helper": "This action will change animation to entity",
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Launch recovery and failsafe mode (High Risk/Success) (4)_change_anim_entity (8)_context_new_trigger_new"
+                ]
+              ],
+              "action": [],
+              "trigger": {
+                "trauma_rescue_Launch recovery and failsafe mode (High Risk/Success) (4)_change_anim_entity (8)_context_new_trigger_new": {
+                  "helperTitle": "Player : Gender",
+                  "value": "female",
+                  "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                  "name": "player_gender"
+                }
+              },
+              "prop": {
+                "anim": {
+                  "values": {
+                    "gang": {
+                      "value": "sit_ground_wall_lean180__2h_on_lap__q101_07c__01__shower__01",
+                      "action": [],
+                      "requirement": [],
+                      "type": "text",
+                      "trigger": [],
+                      "outputtype": "text"
+                    }
+                  },
+                  "text": "##gang",
+                  "alpha": false,
+                  "type": "text"
+                }
+              }
+            }
+          ],
+          "helperTitle": "Anim : Change Anim to Entity (if in same workspot)",
+          "anim": "q001_00c_malware_idle",
+          "isinstant": true,
+          "name": "change_anim_entity"
+        }
+      },
+      {
+        "at": 2.5,
+        "action": {
+          "helperTitle": "UI : Hide Hacking Progression bar",
+          "helper": "This action will hide Hacking Progression bar",
+          "name": "hide_hack_animation"
+        }
+      },
+      {
+        "at": 2.5,
+        "action": {
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Reboot the firmware (1)_action_new_context_new_trigger_new"
+                ]
+              ],
+              "action": [],
+              "trigger": {
+                "trauma_rescue_Reboot the firmware (1)_action_new_context_new_trigger_new": {
+                  "helperTitle": "Auto",
+                  "helper": "This trigger will be triggered without need anything (default)",
+                  "name": "auto"
+                }
+              },
+              "prop": {
+                "value": {
+                  "values": {
+                    "value": {
+                      "outputtype": "number",
+                      "requirement": [
+                        []
+                      ],
+                      "action": [],
+                      "max": 20,
+                      "min": -5,
+                      "trigger": {
+                        "trauma_rescue_Reboot the firmware (1)_action_new_context_new_prop_new_propvalue_new_trigger_new": {
+                          "helperTitle": "Auto",
+                          "helper": "This trigger will be triggered without need anything (default)",
+                          "name": "auto"
+                        }
+                      },
+                      "type": "random_range"
+                    }
+                  },
+                  "type": "number",
+                  "alpha": false,
+                  "text": "##value"
+                }
+              }
+            }
+          ],
+          "score": "trauma_mission",
+          "key": "victim_health",
+          "name": "operate_score",
+          "value": 1,
+          "operator": "+",
+          "helperTitle": "Score : Operate Score",
+          "helper": "This action will operate a value for a key of a score. Can be number, boolean or text \n Operator can be + | -| * | / | positive | negative | random (who take min and max value) | ceil | floor",
+          "max": 5,
+          "min": 0
+        }
+      },
+      {
+        "at": 2.5,
+        "action": {
+          "if_action": [
+            {
+              "if_action": [
+                {
+                  "speaker": "V",
+                  "value": "traumateam_evacuate_m",
+                  "target": "player",
+                  "type": 1,
+                  "helperTitle": "Dialog : run Custom Sound Subtitle",
+                  "helper": "This action will fire a subtitle based on sound dialog on your bottom portion of the screen, The duration must complete in order for the next action to call. Type value just keep at 1 for now.",
+                  "context": [
+                    {
+                      "requirement": [
+                        [
+                          "auto"
+                        ]
+                      ],
+                      "trigger": {
+                        "auto": {
+                          "helperTitle": "Player : Gender",
+                          "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                          "value": "female",
+                          "name": "player_gender"
+                        }
+                      },
+                      "prop": {
+                        "value": {
+                          "values": {
+                            "gang": {
+                              "value": "traumateam_evacuate_f",
+                              "type": "text",
+                              "requirement": [],
+                              "trigger": [],
+                              "outputtype": "text"
+                            }
+                          },
+                          "type": "text",
+                          "alpha": false,
+                          "text": "##gang"
+                        }
+                      }
+                    }
+                  ],
+                  "name": "play_custom_sound_with_subtitle"
+                }
+              ],
+              "else_action": [
+                {
+                  "helperTitle": "Dialog : run a dialog",
+                  "helper": "This action will fire a dialog if the trigger requirements are met",
+                  "dialog": "trauma_rescue",
+                  "name": "dialog"
+                }
+              ],
+              "helperTitle": "Logic : If",
+              "helper": "This action will check a trigger and execute IF actions if the trigger is OK or ELSE action if the trigger is not OK",
+              "trigger": {
+                "value": 50,
+                "name": "check_variable",
+                "operator": ">",
+                "helperTitle": "Score : Custom Variable",
+                "key": "victim_health",
+                "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+                "variable": "trauma_mission"
+              },
+              "name": "if"
+            }
+          ],
+          "else_action": [
+            {
+              "helperTitle": "Anim : Stop Anim for Entity",
+              "helper": "This action will stop animation to entity",
+              "tag": "player",
+              "name": "stop_anim_entity"
+            }
+          ],
+          "helperTitle": "Logic : If",
+          "helper": "This action will check a trigger and execute IF actions if the trigger is OK or ELSE action if the trigger is not OK",
+          "trigger": {
+            "name": "check_variable",
+            "value": 0,
+            "type": "number",
+            "operator": ">",
+            "helperTitle": "Score : Custom Variable",
+            "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+            "key": "victim_health",
+            "variable": "trauma_mission"
+          },
+          "name": "if"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Launch recovery and failsafe mode (High Risk/Success)",
+    "icon": "AccessTokenIcon",
+    "min_delta": -10,
+    "max_delta": 30,
+    "duration": 2.5,
+    "timeline": [
+      {
+        "at": 0,
+        "action": {
+          "helperTitle": "UI : Show Hacking Progression bar",
+          "helper": "This action will hacking progression bar",
+          "value": "Starting recovery...",
+          "name": "show_hack_animation"
+        }
+      },
+      {
+        "at": 0,
+        "action": {
+          "ent": "base\\cyberscript\\entity\\workspot_anim.ent",
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context_new_trigger_new"
+                ],
+                []
+              ],
+              "prop": {
+                "yaw": {
+                  "values": {
+                    "yaw": {
+                      "outputtype": "number",
+                      "offset_x": 0,
+                      "offset_y": 0,
+                      "offset_z": 0,
+                      "slot": "",
+                      "trigger": [],
+                      "key": "head_orientation",
+                      "tag": "player",
+                      "action": [],
+                      "type": "entity",
+                      "requirement": [],
+                      "relative": false,
+                      "prop": "yaw",
+                      "distance": 0
+                    }
+                  },
+                  "type": "number",
+                  "alpha": false,
+                  "text": "##yaw"
+                },
+                "anim": {
+                  "values": {
+                    "gang": {
+                      "value": "sit_bed__legs_on_floor__01__rh_shard__01__put_on_braindance__01",
+                      "type": "text",
+                      "requirement": [
+                        [
+                          "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context (1)_anim_gang_trigger_new"
+                        ]
+                      ],
+                      "outputtype": "text",
+                      "trigger": {
+                        "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context (1)_anim_gang_trigger_new": {
+                          "helperTitle": "Auto",
+                          "helper": "This trigger will be triggered without need anything (default)",
+                          "name": "auto",
+                          "context": []
+                        }
+                      },
+                      "action": []
+                    }
+                  },
+                  "type": "text",
+                  "alpha": false,
+                  "text": "##gang"
+                }
+              },
+              "trigger": {
+                "trauma_rescue_Apply first aid (Safe) (1)_play_custom_anim_entity (1)_context_new_trigger_new": {
+                  "helperTitle": "Player : Gender",
+                  "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                  "value": "female",
+                  "name": "player_gender"
+                }
+              },
+              "action": []
+            }
+          ],
+          "yaw": 0,
+          "angle": true,
+          "tag": "player",
+          "name": "play_custom_anim_entity",
+          "roll": 0,
+          "pitch": 0,
+          "workspot": "cyberscript_workspot_base",
+          "anim": "player_johnny__stand_table_lean0__2h_on_table__01__search_for_drugs__01",
+          "helperTitle": "Anim : Play Anim to Entity",
+          "helper": "This action will apply animation to entity",
+          "isinstant": true,
+          "unlockcamera": true
+        }
+      },
+      {
+        "at": 0.5,
+        "action": {
+          "value": 0.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 0.5,
+        "action": {
+          "value": 50,
+          "text": "Rebooting in failsafe mode...",
+          "helperTitle": "UI : Set Hacking Progression bar percentage",
+          "helper": "This action will set Hacking Progression bar percentage. Text is optionnal, leave blank if not used",
+          "name": "change_hack_animation_percent"
+        }
+      },
+      {
+        "at": 2.0,
+        "action": {
+          "value": 1.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 2.0,
+        "action": {
+          "value": 100,
+          "text": "Reboot successfull!",
+          "helperTitle": "UI : Set Hacking Progression bar percentage",
+          "helper": "This action will set Hacking Progression bar percentage. Text is optionnal, leave blank if not used",
+          "name": "change_hack_animation_percent"
+        }
+      },
+      {
+        "at": 2.5,
+        "action": {
+          "value": 0.5,
+          "helperTitle": "Logic : Wait X seconds",
+          "helper": "This action will wait x second before perform the next action",
+          "help": "Wait x second",
+          "name": "wait_second"
+        }
+      },
+      {
+        "at": 2.5,
+        "action": {
+          "tag": "player",
+          "helper": "This action will change animation to entity",
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Launch recovery and failsafe mode (High Risk/Success) (4)_change_anim_entity (8)_context_new_trigger_new"
+                ]
+              ],
+              "action": [],
+              "trigger": {
+                "trauma_rescue_Launch recovery and failsafe mode (High Risk/Success) (4)_change_anim_entity (8)_context_new_trigger_new": {
+                  "helperTitle": "Player : Gender",
+                  "value": "female",
+                  "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                  "name": "player_gender"
+                }
+              },
+              "prop": {
+                "anim": {
+                  "values": {
+                    "gang": {
+                      "value": "sit_ground_wall_lean180__2h_on_lap__q101_07c__01__shower__01",
+                      "action": [],
+                      "requirement": [],
+                      "type": "text",
+                      "trigger": [],
+                      "outputtype": "text"
+                    }
+                  },
+                  "text": "##gang",
+                  "alpha": false,
+                  "type": "text"
+                }
+              }
+            }
+          ],
+          "helperTitle": "Anim : Change Anim to Entity (if in same workspot)",
+          "anim": "q001_00c_malware_idle",
+          "isinstant": true,
+          "name": "change_anim_entity"
+        }
+      },
+      {
+        "at": 2.5,
+        "action": {
+          "helperTitle": "UI : Hide Hacking Progression bar",
+          "helper": "This action will hide Hacking Progression bar",
+          "name": "hide_hack_animation"
+        }
+      },
+      {
+        "at": 2.5,
+        "action": {
+          "context": [
+            {
+              "requirement": [
+                [
+                  "trauma_rescue_Reboot the firmware (1)_action_new_context_new_trigger_new"
+                ]
+              ],
+              "action": [],
+              "trigger": {
+                "trauma_rescue_Reboot the firmware (1)_action_new_context_new_trigger_new": {
+                  "helperTitle": "Auto",
+                  "helper": "This trigger will be triggered without need anything (default)",
+                  "name": "auto"
+                }
+              },
+              "prop": {
+                "value": {
+                  "values": {
+                    "value": {
+                      "outputtype": "number",
+                      "action": [],
+                      "min": -10,
+                      "requirement": [
+                        []
+                      ],
+                      "type": "random_range",
+                      "trigger": {
+                        "trauma_rescue_Reboot the firmware (1)_action_new_context_new_prop_new_propvalue_new_trigger_new": {
+                          "helperTitle": "Auto",
+                          "helper": "This trigger will be triggered without need anything (default)",
+                          "name": "auto"
+                        }
+                      },
+                      "max": 30
+                    }
+                  },
+                  "text": "##value",
+                  "alpha": false,
+                  "type": "number"
+                }
+              }
+            }
+          ],
+          "score": "trauma_mission",
+          "key": "victim_health",
+          "name": "operate_score",
+          "value": 1,
+          "min": 0,
+          "max": 5,
+          "helper": "This action will operate a value for a key of a score. Can be number, boolean or text \n Operator can be + | -| * | / | positive | negative | random (who take min and max value) | ceil | floor",
+          "helperTitle": "Score : Operate Score",
+          "operator": "+"
+        }
+      },
+      {
+        "at": 2.5,
+        "action": {
+          "if_action": [
+            {
+              "if_action": [
+                {
+                  "speaker": "V",
+                  "value": "traumateam_evacuate_m",
+                  "target": "player",
+                  "context": [
+                    {
+                      "requirement": [
+                        [
+                          "auto"
+                        ]
+                      ],
+                      "trigger": {
+                        "auto": {
+                          "helperTitle": "Player : Gender",
+                          "helper": "This trigger will be triggered when player has expected gender (male||female)",
+                          "value": "female",
+                          "name": "player_gender"
+                        }
+                      },
+                      "prop": {
+                        "value": {
+                          "values": {
+                            "gang": {
+                              "value": "traumateam_evacuate_f",
+                              "type": "text",
+                              "requirement": [],
+                              "trigger": [],
+                              "outputtype": "text"
+                            }
+                          },
+                          "text": "##gang",
+                          "alpha": false,
+                          "type": "text"
+                        }
+                      }
+                    }
+                  ],
+                  "helperTitle": "Dialog : run Custom Sound Subtitle",
+                  "helper": "This action will fire a subtitle based on sound dialog on your bottom portion of the screen, The duration must complete in order for the next action to call. Type value just keep at 1 for now.",
+                  "type": 1,
+                  "name": "play_custom_sound_with_subtitle"
+                }
+              ],
+              "else_action": [
+                {
+                  "helperTitle": "Dialog : run a dialog",
+                  "helper": "This action will fire a dialog if the trigger requirements are met",
+                  "dialog": "trauma_rescue",
+                  "name": "dialog"
+                }
+              ],
+              "helperTitle": "Logic : If",
+              "helper": "This action will check a trigger and execute IF actions if the trigger is OK or ELSE action if the trigger is not OK",
+              "trigger": {
+                "value": 50,
+                "name": "check_variable",
+                "operator": ">",
+                "helperTitle": "Score : Custom Variable",
+                "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+                "key": "victim_health",
+                "variable": "trauma_mission"
+              },
+              "name": "if"
+            }
+          ],
+          "else_action": [
+            {
+              "helperTitle": "Anim : Stop Anim for Entity",
+              "helper": "This action will stop animation to entity",
+              "tag": "player",
+              "name": "stop_anim_entity"
+            }
+          ],
+          "helperTitle": "Logic : If",
+          "helper": "This action will check a trigger and execute IF actions if the trigger is OK or ELSE action if the trigger is not OK",
+          "trigger": {
+            "name": "check_variable",
+            "value": 0,
+            "key": "victim_health",
+            "type": "number",
+            "helperTitle": "Score : Custom Variable",
+            "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+            "operator": ">",
+            "variable": "trauma_mission"
+          },
+          "name": "if"
+        }
+      }
+    ]
+  }
+]

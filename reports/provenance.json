@@ -1,0 +1,621 @@
+{
+  "date": "2026-10-31",
+  "permission": "Ethan reports author permission to reuse systems in On Call; this is an isolated personal migration study.",
+  "files": [
+    {
+      "path": "CyberScript-Core-ArtheriaxFork-Patched-v5.1.9.6.zip",
+      "bytes": 4515704,
+      "sha256": "c7fc773e8298ef370e27f8905db89feba183a961b0b0972a91cfe5205fcd742d"
+    },
+    {
+      "path": "CyberScript-Core-GameArchive-v5.1.9.zip",
+      "bytes": 80313578,
+      "sha256": "ef6e256bb4cae6a438145b85a0b42142f7cc0f3fbb0e76a56b59d5f9484a193e"
+    },
+    {
+      "path": "Jobs of Night City - Trauma Team-7427-5-0-0-1729059646.7z",
+      "bytes": 14441813,
+      "sha256": "5824e99dd92131239d5946c931643d9d6184c17f1fbb72cefa3b529fa43d5753"
+    },
+    {
+      "path": "JobsOfNightCity-TraumaTeam-Patched-v5.0.5.zip",
+      "bytes": 19363958,
+      "sha256": "8a5328562b849ca13e20d08b4cb6bf2ef3cd0bc6cca68e155d6aac5fa53d0de0"
+    },
+    {
+      "path": "patched-v5.0.5/archive/pc/mod/Jobs Of Night City Trauma Team.archive",
+      "bytes": 32768,
+      "sha256": "5a88889629f7ce8fc212c9a51de735c8012aefac2c7a07e870146b9af46148fa"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/db.sqlite3",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/desc.json",
+      "bytes": 593,
+      "sha256": "d068558b1c6b7be59d44e33cfeeb7fb153206753edc8f2824f62c8cfdbab41b3"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/init.lua",
+      "bytes": 873,
+      "sha256": "742562beceb0ec713ab47298a19f11c88a5640d6eefea778b7846d2fe090c740"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/libs/cyberlibs.lua",
+      "bytes": 4506,
+      "sha256": "1c983808dec1933b4dc5dce8af346b39472e834b3089adf90a8939dc62fa09cb"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/libs/json.lua",
+      "bytes": 70971,
+      "sha256": "0bb3181980004e046521dc61572d0568be7d73b8ebbdf072e69a6bf22e241ce2"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/character/job_trauma_av.json",
+      "bytes": 137,
+      "sha256": "b4b8127f78ddb6a9959b0c02d1e5e3e447896b9f0f179d865e2763ec81bf0a6d"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/choice/trauma_rescue.json",
+      "bytes": 43870,
+      "sha256": "c8b1ca38962076f53c68728ab80ebd8a2b32272998ec283433d7213b87122628"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/event/disable_ui_mission.json",
+      "bytes": 2076,
+      "sha256": "f5175980c5052024ed2335c322b8ce2dd5d068641e61458fa96eaeb1a9ff150a"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/event/enable_trauma_ui_mission.json",
+      "bytes": 2425,
+      "sha256": "562efa400f595f1a558b1f65d922344855b258926acbf2ad73a60debf066e4ca"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/event/trauma_membership_init.json",
+      "bytes": 1813,
+      "sha256": "57f44e2cfd69d725b5cc89466d6d34fbe4edab2bbec2ce9a7ceef526b88e7f94"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/event/trauma_membership_inside.json",
+      "bytes": 2318,
+      "sha256": "b94b7a5c8d2570127d83359de618793b964f86cefc324d5d7ab74aa762568b32"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/event/trauma_membership_nomember.json",
+      "bytes": 2185,
+      "sha256": "f85528f5f41511a06a50dc332d9671be633cdadf928c82a4dba4cf53c0086bc5"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/event/trauma_membership_outside.json",
+      "bytes": 2349,
+      "sha256": "d4a2366b4caccbbc3b5650f5aae58d509f90d9bc0f8696390f9c091a980f556a"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/av_back.json",
+      "bytes": 630,
+      "sha256": "c12c11c6a78d2d35d4ad3cef02c7ec95b9a4b5b0a1149e6c0d07229de36fa6d2"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/av_down.json",
+      "bytes": 2014,
+      "sha256": "3afc46234e3587fb7502c37bdd283337b581bb52c29836f2f672021d6affcc9f"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/av_down_start.json",
+      "bytes": 700614,
+      "sha256": "767548c60822371ccb98504d1b410904f10f0f71d2d694c6c251f5ad67205b71"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/av_go.json",
+      "bytes": 6078,
+      "sha256": "a24c8056e34d25b27a74c698edb1827c1f0234afd8e3e4cf991dea9fe504d88d"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/av_up.json",
+      "bytes": 2254,
+      "sha256": "66a4804e1ebe31b012f0c9b24654e111d4e7ea975eaed35400a4c05ba90d0f50"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/disable_ui_mission.json",
+      "bytes": 2076,
+      "sha256": "245ad9a94f20a72e2ff4dcbeebec876f5f668f08c8710a57c46c999dc1a2badf"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/gang_presence.json",
+      "bytes": 41985,
+      "sha256": "9261d2bcd4244a6b02ca17bd4569d2e73bfabb75628b88f6d91e3ef9677c0cf1"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/go_back_av.json",
+      "bytes": 33489,
+      "sha256": "7c702997a7973c129b840a9f5d3567a2f418626cb7285ddee0aa4d9fe17eca4c"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/player_squad_dialog.json",
+      "bytes": 5114,
+      "sha256": "26720d9cab95690cdd97ff2eb1b45e69b5329d74601e43ea0f1b1cb94d486ab6"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/player_squad_dialog_end.json",
+      "bytes": 9188,
+      "sha256": "ac11072c0fb1056229d4d4ca64d903be44550710d19911642be57054e63583b3"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/player_victim_dialog.json",
+      "bytes": 5556,
+      "sha256": "47aa74aaad9cf08a4201cd5be9738045d3c5caef90763a26bfc374113342e710"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/player_victim_dialog_inside_end.json",
+      "bytes": 1438,
+      "sha256": "a193b9953fb56ad4d5dafcb3d7d7fa6d85b53351026e9f46bc49700d500580ee"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/player_victim_dialog_inside_start.json",
+      "bytes": 2498,
+      "sha256": "ab067c973d2c1b32989f21f0a749581b6242886eb0446a4a87448e861b4e1f40"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/save_dialog.json",
+      "bytes": 8861,
+      "sha256": "22311932a41fd766e2c3ec5a10f16ffe6d96c06fff233c3bf34674dfbb55fcaa"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/spawn_mission_ui.json",
+      "bytes": 872,
+      "sha256": "95251952723a28c3ab006dccae9d8da90f0551eba3a2f2d4eee974f32c3c15fc"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/trauma_mission_arrive_protect_scene.json",
+      "bytes": 11484,
+      "sha256": "2a04d337fe17cb2ed49d7111b03276f68caa347983260eaf2ea86e7b60785351"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/trauma_team_member_intervention_inside.json",
+      "bytes": 13093,
+      "sha256": "b7675f9ce37d70ccbb30a3cea0a6c29284b46ffcd039cf3bbdf30c8ca92d4f21"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/trauma_team_member_intervention_outside.json",
+      "bytes": 64750,
+      "sha256": "4b15559f36ce817f7fb23c2fd08b7fb6e56e24b1d94980cd905df2b303f63db9"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/trauma_team_member_intervention_outside_view.json",
+      "bytes": 1100,
+      "sha256": "13147bd7eb2371d81ef6e8c8f892f31d91864309c4249d5b0ff902f4ecd0d6c8"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/trauma_team_member_nomember.json",
+      "bytes": 1027,
+      "sha256": "60757f4f2c550689dd6410caeb1a5ee3d03500a33666798824f8318b8ea7074a"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/functions/trauma_team_member_time.json",
+      "bytes": 4475,
+      "sha256": "c7ca1761d60af04f466be55d7dd52115738577ceb02a5c5bc1032a96d2c2dd0d"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/help/traumamember.json",
+      "bytes": 971,
+      "sha256": "fce9869fdf484bf9b7b617c8e0909f58d2214ecf5d3ae3e06be79f7b614fc401"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/interact/test_inside.json",
+      "bytes": 1484,
+      "sha256": "dc8bd1db8e0605d562d6beeab51adb9e10dc397328d42a8faac1afd798fd5bdb"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/interact/test_outside.json",
+      "bytes": 1487,
+      "sha256": "9e835faa96a7282454e5ca1a1b862ee2cc361fc3d0ea0cb979ed07fe9be8dcb7"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/interact/test_score.json",
+      "bytes": 2138,
+      "sha256": "2eb8f715f14460a140813eeafb3c006a4b1388ef7850b1006fdf7985bb894ec0"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/interfaces/membership_card_ui.json",
+      "bytes": 32508,
+      "sha256": "8b07507373a1f3c97df7b6021c7e1e572687b59a1a9610dba0e518f53a3e02d7"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/interfaces/trauma_membership_ui.json",
+      "bytes": 12599,
+      "sha256": "22ae44d1b28c1f91c6b75664c7f38e6c8f87c8f83ba1568270294d4e53087114"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/interfaces/trauma_mission_ui.json",
+      "bytes": 15739,
+      "sha256": "314faabcbbad7e6a01c7fab82eb3f8eee731949c5e7a76129e40e8da4bad6cd9"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/interfaces/trauma_website.json",
+      "bytes": 59981,
+      "sha256": "6f7f2a315a40e3fd2b87b98c6102955fee2d1cb8822f2951cc22a4baa04268bd"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/interfaces/traumateam_membership_page.json",
+      "bytes": 59981,
+      "sha256": "6f7f2a315a40e3fd2b87b98c6102955fee2d1cb8822f2951cc22a4baa04268bd"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/interfaces/victim_membership_card_ui.json",
+      "bytes": 18450,
+      "sha256": "e601b81ac1b7629f6800019be7bb39bb37ace9406a5bbf8e2a8f32005e84ab19"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/mission/trauma_mission.json",
+      "bytes": 322314,
+      "sha256": "1b928fa6d4b8c9e823a15fc07d54bf4cad3fb92b1bf59f68f9a8a7446a613c1a"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/place/medcenter.json",
+      "bytes": 1803,
+      "sha256": "d66548f967599c2eced0bbf473d98875d474fa203a7562dfdc27078739e55483"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/poi/Trauma_mission_poi.json",
+      "bytes": 23920,
+      "sha256": "9d3768b3fef37bdf17f24638e614ccc83a2232a129fd74e93c9ae76a565a3713"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/sound/Jobs Of Night City Trauma Team.json",
+      "bytes": 12054,
+      "sha256": "ba2cd8c9b55234df41056c6aec4215076905508de24b3a62fce4a411818d1cbd"
+    },
+    {
+      "path": "patched-v5.0.5/bin/x64/plugins/cyber_engine_tweaks/mods/Jobs Of Night City - Trauma Team/scripts/webpage/test.json",
+      "bytes": 323,
+      "sha256": "7cd3d0d3f240c0af1d220bc7420b8ea12e246a2bc4405ca5a8e5c68bd35ae0c2"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/audios.yaml",
+      "bytes": 3750,
+      "sha256": "443e564b6e4617fa832111c6d87cf362c24b2ff26c089d1c28c6f59d5b9c84da"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_355.wav",
+      "bytes": 1092174,
+      "sha256": "078c9b128125139ba578dde1cb6089db92666b961d7202164b4dc1aefcd06b7e"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_all injuries.wav",
+      "bytes": 297294,
+      "sha256": "94784ba2e50f123a595676a5222696738ad0f46e64b8ce790a5dfa1ed2bd5a1f"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_almost good.wav",
+      "bytes": 147534,
+      "sha256": "43715cc9d03bd1435dbcaaef14eb9e91be5c551d01e5c68152f39f7bf668871c"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_area is safe.wav",
+      "bytes": 159054,
+      "sha256": "100e622fd79368fc33be353497beacd0079567d0455902ad748aa29a2b5f106e"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_area safe keep.wav",
+      "bytes": 815412,
+      "sha256": "00d12080b3a72233246fa5c7e6afc2858bd46b69b6aa737d7b27d4ef5fae6d89"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_arrive soon.wav",
+      "bytes": 301902,
+      "sha256": "8497155e6211aef821e1290cfd4b2f6f198c9a0f1cd9eb7f44f2def75e9f725e"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_ass covered.wav",
+      "bytes": 252344,
+      "sha256": "13d81b65f0249e6b073097c8fdd3e71c255c4e05159955cca748eace33b6c34f"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_carnage.wav",
+      "bytes": 518478,
+      "sha256": "8b0bf5fea7357b422f96b9c78395fb4d68a3c6774536e610f3355e54a8f8d922"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_chaotic.wav",
+      "bytes": 365242,
+      "sha256": "dd002f7d6c74b91c20bb2b32a7f70ac09e5ae816e31ce7d79464a99dfe35dbdb"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_client_awake.wav",
+      "bytes": 117582,
+      "sha256": "c2bc77dbbd3b794f3e4d489d72e26dcb6993d357391014fa77068f2e7ccf72c4"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_confidential.wav",
+      "bytes": 311118,
+      "sha256": "c3d9392aa1f655d8838ff6c29a89ac0af64a4f6c1a0be47987d02b923f7d4cd2"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_cover us.wav",
+      "bytes": 364110,
+      "sha256": "cac36878e549d041b9953d550e1315d616d26d52dfa19c0d4687dc2e2495de59"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_do what m.wav",
+      "bytes": 131406,
+      "sha256": "a16066c2195fa504ef101b96a84691596bfd796cd74476ea58d1fe1f6939b39b"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_end t1.wav",
+      "bytes": 1624398,
+      "sha256": "43e91989567c5b9c1a72cc0d6ddda9a3c0d86d451ee5734c66c1fb18840963cb"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_end v.wav",
+      "bytes": 1527630,
+      "sha256": "a6dd288ef99eceb294985caa2cd133692e42527f28c1648e54b4abba26f1f7ad"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_evacuate_f.wav",
+      "bytes": 458574,
+      "sha256": "8f4340c13558c355961c0402253aba09ef864a485e009d0401b3d540346970a5"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_evacuate_m.wav",
+      "bytes": 407886,
+      "sha256": "19357b1b8ca2a46dc3462237489cb9c998db04643ab325d793239708afd581d1"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_focus near saving.wav",
+      "bytes": 241998,
+      "sha256": "15db5eaafa83c54cb80b3a0eb85e981c44b32a7ead60e09bbf8ff9f6e003b6a6"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_fortunately.wav",
+      "bytes": 453966,
+      "sha256": "fc3ed479f2d56bd793311d17ee769b77cdaced28adaf177434427915ae8dd7c0"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_go back AV.wav",
+      "bytes": 244302,
+      "sha256": "5a1991112f46864ceca53db9a8525c49e5f0680c589780c3329832f3900a363a"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_gogogo.wav",
+      "bytes": 101454,
+      "sha256": "e673b3e89607392bf5abd9e20d9df297c7790700fffd4728aeb40be308089fbf"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_good hand.wav",
+      "bytes": 548430,
+      "sha256": "cca0a535aeb673b3a7563c12c0bfef68700f46564e0d08e15bd34e7ab0ff5b71"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_good luck.wav",
+      "bytes": 396366,
+      "sha256": "c9e75f98685c89002e76bf1c02956ec8ab0687f8ad98696f35bb64fb1ceab2ca"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_hardlife.wav",
+      "bytes": 200526,
+      "sha256": "b1c8b361a770f07e26369969aac891e684d72a176dccedf0696e3cae30b25bb2"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_heart rate f.wav",
+      "bytes": 258126,
+      "sha256": "90e0049b25fff34af02fbe29ace8e176b101595eff210fffa0f4a836018afddc"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_heart rate low f.wav",
+      "bytes": 163662,
+      "sha256": "df7216c4f53342a4cbbac5956697442ad875410a0147452296058cc62e63cd25"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_heart rate low m.wav",
+      "bytes": 212046,
+      "sha256": "cc7101b4ad85a16fce57fdb9a67b89786718294732e5e130c2f63c84795a602b"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_heart rate m.wav",
+      "bytes": 237390,
+      "sha256": "4208d54ecde33a4090d1c3b3a1c6670b38e0d30a8f602cf1242ce080a74ceabd"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_heart_rate_trauma.wav",
+      "bytes": 147534,
+      "sha256": "400082004ee31b682d6116d6dd38dff53a85bcc985b8f13a61b94703aff1210a"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_heyheyhey.wav",
+      "bytes": 205134,
+      "sha256": "abfffc15fe7939b6096f4eedb60fedb4f55608a68ca63ba82cfb102d6699f3ec"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_hostile.wav",
+      "bytes": 297294,
+      "sha256": "347517a32210e0fa60bffb311eaf44dc90f5d0f32dbe0afc174f63d94d221f4f"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_hurry.wav",
+      "bytes": 315726,
+      "sha256": "97a76a1b368c300a03bf3862ac93d170b5779203d8197d37f04e9061499cd542"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_is lucky.wav",
+      "bytes": 479310,
+      "sha256": "45b9c20e7ecf829edfb45ed7eddaca7cf35969703e4d410c98361e7fe6491fe6"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_loss squad.wav",
+      "bytes": 573774,
+      "sha256": "4a4583431d3bf9955dbfdaf1e3d0893857be691cf863b14f3ae4bf2e27ac981a"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_martinez.wav",
+      "bytes": 474702,
+      "sha256": "5a0a615f1dc83fc1469f8ec80b9f8588b2072c2e7ee64ea3a5ef14d2ddad0957"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_medical hud.wav",
+      "bytes": 241998,
+      "sha256": "57064e9dcd4ecc6d4de799215559f3ea3e94c5569029b6494075ecedf854778c"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_memory.wav",
+      "bytes": 795302,
+      "sha256": "d5c8374ac7ff028812534cc2d2e4de920c54efe9506903e58b2fdd9456317ffd"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_mission v stay alive f.wav",
+      "bytes": 138318,
+      "sha256": "72940b25499e93cd8bc1d7003052c1b53ba9201b45f365dd1623a1e0c43f528f"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_mission v stay alive m.wav",
+      "bytes": 154446,
+      "sha256": "7a66c45b5a0858fdf7720beb639a2391f732ad925cc0d4ccdc3a98c9586c16fc"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_move out.wav",
+      "bytes": 184398,
+      "sha256": "0186445c83800de7bfb65beb78421f6746c40afd9d951d4861ace6947dfde200"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_no hostile.wav",
+      "bytes": 327246,
+      "sha256": "2936eb7fd948040a3ae71b6ae824deb065c075fb7bace58531fd1ee7902a6b6c"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_protect area.wav",
+      "bytes": 354894,
+      "sha256": "0fcae7e861e4a6125e8d40d2b6b0fc7cbde9d4e76103a2fa68ffb514ef0ad5d2"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_protect the client.wav",
+      "bytes": 318030,
+      "sha256": "5e9be5ecef8b1dc7525175d1ae2c4a78d302baa1aebf6d082180de8eea6bf00f"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_recovery ok.wav",
+      "bytes": 205134,
+      "sha256": "cc936cc1ef9e1743cfabce342587fbad6a50009f89fd5883b09072d3c09e8408"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_rescue extraction not possible.wav",
+      "bytes": 207438,
+      "sha256": "e8628b49b3df79c634cd762a2ed7ea027a6201a1ba28e57c8001099a76529b50"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_rescue send squad.wav",
+      "bytes": 274254,
+      "sha256": "2d56908cbae33ef84df592b70612ab49adad3e5b61ff1f3f95e8d31054adcc0e"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_rescue squad living.wav",
+      "bytes": 159054,
+      "sha256": "471663bf7a870543a6f43e1c1a7a84766fd5636d01506b6667fd76fdbb2836df"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_rescue they will protect.wav",
+      "bytes": 223566,
+      "sha256": "31468c95fd1b9a2bb1054c243a509a391ff7b1c3349dcc7c47f88ea75c46e8f8"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_secure the area.wav",
+      "bytes": 391758,
+      "sha256": "ebd377c9f0fdb24b55dc99dc47045f99c309ff46f9c2bd2b92b22cd6971b0237"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_sending.wav",
+      "bytes": 241998,
+      "sha256": "2096092ebc4ec8c93410f878274422e8767cb307bafd59aacb958ab53c4fb86b"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_sergentjoy.wav",
+      "bytes": 149838,
+      "sha256": "6f8fba290f8c1b889d710e5505c7651414ce029f18f672dcd74a89138d89c918"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_shine.wav",
+      "bytes": 253518,
+      "sha256": "dd80eb52f063d0e0000ff0e09268e017fd17d4dd9ae2a3d8673eaaafc93cb50b"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_shutup.wav",
+      "bytes": 334158,
+      "sha256": "315d9a1b97e9ea64f7ca47c69dbec1fcadd6c8276a4ae0cf9de7b6aca9c2fe47"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_somechrome.wav",
+      "bytes": 195918,
+      "sha256": "43f1e3583c58e5e0a24110dcd416e6a6d1696b6ade8799903fb7b236cd356c68"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_stay focus.wav",
+      "bytes": 191310,
+      "sha256": "9435da1447e8a06b9e915bfd44c483b43de6da522b0796aae3d41fb41fbd1e6f"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_surgery block.wav",
+      "bytes": 338766,
+      "sha256": "701891d99710a922115c90feac33d9df17df46a85589fef74cdc4a7bca2d0914"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_t1 apply first aid.wav",
+      "bytes": 912462,
+      "sha256": "72ec755d4addef55c3a7a78e607e50a92782c795c758f33f1b5e163b811bd692"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_take that.wav",
+      "bytes": 280734,
+      "sha256": "463418de792919980803094ea4cd3c86b5d9c78c6495b2555e2e7fa5ddc0d510"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_thanks help.wav",
+      "bytes": 744270,
+      "sha256": "e8027c9b9c9f2183a3530f816f2a61f0486dcc2ef1fb9a2451f97e5da9637076"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_thanks joining.wav",
+      "bytes": 412494,
+      "sha256": "e50069ed9d2fabc43d2e606161d89d194aaeb1d2f9cfe6ea5a6532f975969275"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_thatshort.wav",
+      "bytes": 96846,
+      "sha256": "30afb33fa18557092bae889faa8b945ae129a9d07237abd43dda839cf2d71963"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_tons of paper.wav",
+      "bytes": 686670,
+      "sha256": "f5d9d35396480cab398539c4b2251147f7012540800ca5d45f982f98e4bea12d"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_up to doc.wav",
+      "bytes": 274254,
+      "sha256": "370a574310b25e84c700652b1ac633ff9752fd55bf10468813eac28e360b9644"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_v apply first aid.wav",
+      "bytes": 949326,
+      "sha256": "83aefca65fa25d969b31fc00c37c12555a5fcfc74970552f4903b769ac3be28a"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_wait my instructions.wav",
+      "bytes": 421710,
+      "sha256": "819fd8b8c617629e317a5ad6335e77bdb6cfbf2707aa86b16d80cd1975ab97b8"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_whatever.wav",
+      "bytes": 953934,
+      "sha256": "271bf0ebdbc244b07aea9c56ea2015d59f05704d7581f11edf62d358976cdc14"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_whizzy.wav",
+      "bytes": 216654,
+      "sha256": "5d3127b8ec429518070bc026828e8233f3e9114018dd3a3159d98e62edc425c9"
+    },
+    {
+      "path": "patched-v5.0.5/r6/audioware/Jobs Of Night City Trauma Team/traumateam_yessir.wav",
+      "bytes": 133710,
+      "sha256": "8f909dcec3167b2b2a64c40292ae1da43a03abda01544c7a8d93125074d293ff"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "file": "event/trauma_membership_inside.json",
+    "pointer": "/action/1",
+    "function": "trauma_team_member_intervention_inside"
+  },
+  {
+    "file": "event/trauma_membership_nomember.json",
+    "pointer": "/action/0",
+    "function": "trauma_team_member_nomember"
+  },
+  {
+    "file": "event/trauma_membership_outside.json",
+    "pointer": "/action/2",
+    "function": "trauma_team_member_intervention_outside"
+  },
+  {
+    "file": "functions/av_back.json",
+    "pointer": "/action/0",
+    "function": "player_squad_dialog_end"
+  },
+  {
+    "file": "functions/av_go.json",
+    "pointer": "/action/0",
+    "function": "player_squad_dialog"
+  },
+  {
+    "file": "functions/trauma_team_member_intervention_inside.json",
+    "pointer": "/action/2",
+    "function": "player_victim_dialog_inside_start"
+  },
+  {
+    "file": "functions/trauma_team_member_intervention_inside.json",
+    "pointer": "/action/13",
+    "function": "player_victim_dialog_inside_end"
+  },
+  {
+    "file": "functions/trauma_team_member_intervention_outside.json",
+    "pointer": "/action/52",
+    "function": "player_victim_dialog"
+  },
+  {
+    "file": "interact/test_inside.json",
+    "pointer": "/action/1",
+    "function": "trauma_team_member_intervention_inside"
+  },
+  {
+    "file": "interact/test_outside.json",
+    "pointer": "/action/1",
+    "function": "trauma_team_member_intervention_outside"
+  },
+  {
+    "file": "interfaces/membership_card_ui.json",
+    "pointer": "/onload_action/0",
+    "function": "trauma_team_member_time"
+  },
+  {
+    "file": "mission/trauma_mission.json",
+    "pointer": "/objectives/1/action/16",
+    "function": "av_down_start"
+  },
+  {
+    "file": "mission/trauma_mission.json",
+    "pointer": "/objectives/2/action/11",
+    "function": "av_go"
+  },
+  {
+    "file": "mission/trauma_mission.json",
+    "pointer": "/objectives/3/action/4",
+    "function": "gang_presence"
+  },
+  {
+    "file": "mission/trauma_mission.json",
+    "pointer": "/objectives/3/action/25",
+    "function": "save_dialog"
+  },
+  {
+    "file": "mission/trauma_mission.json",
+    "pointer": "/objectives/4/action/2",
+    "function": "gang_presence"
+  },
+  {
+    "file": "mission/trauma_mission.json",
+    "pointer": "/objectives/5/action/0",
+    "function": "go_back_av"
+  },
+  {
+    "file": "mission/trauma_mission.json",
+    "pointer": "/objectives/6/action/4",
+    "function": "save_dialog"
+  },
+  {
+    "file": "mission/trauma_mission.json",
+    "pointer": "/objectives/6/action/7",
+    "function": "go_back_av"
+  },
+  {
+    "file": "mission/trauma_mission.json",
+    "pointer": "/objectives/8/action/8",
+    "function": "av_back"
+  }
+]

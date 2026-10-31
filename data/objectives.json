@@ -1,0 +1,514 @@
+[
+  {
+    "tag": "trauma_mission_objective_0",
+    "id": "trauma_mission_objective_0",
+    "title": "Go to MedCenter and meet the Officer",
+    "state": 2,
+    "unlock": [
+      "trauma_mission_objective_1"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_1_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_1_trigger_new": {
+        "value_help": "use value (write the Name) for phone or Speak or value (write a tag text) for fixer",
+        "name": "npc",
+        "helperTitle": "NPC : who is talking",
+        "helper": "This trigger will be triggered when you talk with a specific NPC",
+        "way": "fixer",
+        "way_help": "phone||speak||fixer",
+        "value": "fixer_traumateam"
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_1",
+    "id": "trauma_mission_objective_1",
+    "title": "Join the squad.",
+    "state": 1,
+    "unlock": [
+      "trauma_mission_objective_2"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_1_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_1_trigger_new": {
+        "variable": "trauma_mission",
+        "operator": "=",
+        "key": "signal",
+        "name": "check_variable",
+        "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+        "helperTitle": "Score : Custom Variable",
+        "value": "start",
+        "type": "text"
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_2",
+    "id": "trauma_mission_objective_2",
+    "title": "Go inside the AV",
+    "state": 1,
+    "unlock": [
+      "trauma_mission_objective_3",
+      "trauma_mission_objective_9"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_2_trigger_new",
+        "entity_is_spawn",
+        "trauma_mission_trauma_mission_objective_2 (3)_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_trauma_mission_objective_2 (3)_trigger_new": {
+        "variable": "trauma_mission",
+        "operator": "=",
+        "key": "signal",
+        "name": "check_variable",
+        "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+        "helperTitle": "Score : Custom Variable",
+        "value": "goAV",
+        "type": "text"
+      },
+      "entity_is_spawn": {
+        "helper": "This trigger will be triggered when a entity is spawned",
+        "name": "entity_is_spawn",
+        "tag": "traumarescueAV",
+        "helperTitle": "Entity : is spawn "
+      },
+      "trauma_mission_objective_new_2_trigger_new": {
+        "tag": "player",
+        "helperTitle": "Entity : At position",
+        "helper": "This trigger will be triggered when a custom entity is at position",
+        "z": 7.8623580932617,
+        "y": 2581.8623046875,
+        "context": [
+          {
+            "trigger": {
+              "trauma_mission_wait_second (22)_trigger_context (1)_trigger_new": {
+                "helper": "This trigger will be triggered when a entity is spawned",
+                "name": "entity_is_spawn",
+                "tag": "traumarescueAV",
+                "helperTitle": "Entity : is spawn "
+              }
+            },
+            "action": [],
+            "requirement": [
+              [
+                "trauma_mission_wait_second (22)_trigger_context (1)_trigger_new"
+              ]
+            ],
+            "prop": {
+              "x": {
+                "values": {
+                  "x": {
+                    "tag": "traumarescueAV",
+                    "trigger": {
+                      "trauma_mission_wait_second (22)_trigger_context (1)_prop_new_propvalue_new_trigger_new": {
+                        "helper": "This trigger will be triggered without need anything (default)",
+                        "name": "auto",
+                        "helperTitle": "Auto"
+                      }
+                    },
+                    "outputtype": "number",
+                    "prop": "x",
+                    "distance": 0,
+                    "key": "position",
+                    "type": "entity",
+                    "action": [],
+                    "requirement": [
+                      [
+                        "trauma_mission_wait_second (22)_trigger_context (1)_prop_new_propvalue_new_trigger_new"
+                      ]
+                    ]
+                  }
+                },
+                "alpha": false,
+                "text": "##x",
+                "type": "number"
+              },
+              "z": {
+                "values": {
+                  "z": {
+                    "tag": "traumarescueAV",
+                    "trigger": {
+                      "trauma_mission_wait_second (22)_trigger_context (1)_prop_new_propvalue_new_trigger_new": {
+                        "helper": "This trigger will be triggered without need anything (default)",
+                        "name": "auto",
+                        "helperTitle": "Auto"
+                      }
+                    },
+                    "outputtype": "number",
+                    "prop": "z",
+                    "distance": 0,
+                    "key": "position",
+                    "type": "entity",
+                    "action": [],
+                    "requirement": [
+                      [
+                        "trauma_mission_wait_second (22)_trigger_context (1)_prop_new_propvalue_new_trigger_new"
+                      ]
+                    ]
+                  }
+                },
+                "alpha": false,
+                "text": "##z",
+                "type": "number"
+              },
+              "y": {
+                "values": {
+                  "y": {
+                    "tag": "traumarescueAV",
+                    "trigger": {
+                      "trauma_mission_wait_second (22)_trigger_context (1)_prop_new_propvalue_new_trigger_new": {
+                        "helper": "This trigger will be triggered without need anything (default)",
+                        "name": "auto",
+                        "helperTitle": "Auto"
+                      }
+                    },
+                    "outputtype": "number",
+                    "prop": "y",
+                    "distance": 0,
+                    "key": "position",
+                    "type": "entity",
+                    "action": [],
+                    "requirement": [
+                      [
+                        "trauma_mission_wait_second (22)_trigger_context (1)_prop_new_propvalue_new_trigger_new"
+                      ]
+                    ]
+                  }
+                },
+                "alpha": false,
+                "text": "##y",
+                "type": "number"
+              }
+            }
+          }
+        ],
+        "x": -1535.9749755859,
+        "position": "at",
+        "name": "entity_at_position",
+        "range": 3.3
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_3",
+    "id": "trauma_mission_objective_3",
+    "title": "Go to the area",
+    "state": 1,
+    "unlock": [
+      "trauma_mission_objective_4a"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_3_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_3_trigger_new": {
+        "name": "check_variable",
+        "variable": "trauma_mission",
+        "key": "signal",
+        "operator": "=",
+        "value": "arrived",
+        "type": "text"
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_9",
+    "id": "trauma_mission_objective_9",
+    "title": "Go to the victim",
+    "state": 1,
+    "unlock": [
+      "trauma_mission_objective_4b"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_9_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_9_trigger_new": {
+        "name": "check_variable",
+        "variable": "trauma_mission",
+        "key": "signal",
+        "operator": "=",
+        "value": "arrived",
+        "type": "text"
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_4a",
+    "id": "trauma_mission_objective_4a",
+    "title": "Protect the area",
+    "state": 1,
+    "unlock": [
+      "trauma_mission_objective_4c"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_4_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_4_trigger_new": {
+        "variable": "trauma_mission",
+        "key": "signal",
+        "helperTitle": "Score : Custom Variable",
+        "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+        "operator": "=",
+        "value": "ok",
+        "name": "check_variable"
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_4b",
+    "id": "trauma_mission_objective_4b",
+    "title": "Apply first aids to the victim",
+    "state": 1,
+    "unlock": [
+      "trauma_mission_objective_4c"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_4_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_4_trigger_new": {
+        "position_node_usegameplay": false,
+        "position_lookatdistance": 0,
+        "position_tag_helper": "judy01||playerhouse01||playerhouse_bed||",
+        "position_poi_district": "",
+        "position_poi_subdistrict": "",
+        "position_poi_from_position": false,
+        "position_poi_type": 1,
+        "position_house_way_helper": "default||enter||exit",
+        "position_spawnlocation": false,
+        "position_poi_is_for_car": false,
+        "position_range": 50,
+        "position_poi_use_location_tag": false,
+        "position_house_way": "default",
+        "position_poi_search": "type|subdistrict|district|tag",
+        "position_poi_searchdistance": "near|far|random",
+        "name": "entity_at_position",
+        "distance": 0,
+        "x": -0.5,
+        "y": 0.5,
+        "group": false,
+        "tag": "player",
+        "helperTitle": "Entity : At position",
+        "helper": "This trigger will be triggered when a custom entity is at position",
+        "z": 0,
+        "position_tag": "victim_workspot",
+        "position_way": "normal",
+        "position_distance": 5,
+        "position_helper": "at||relative_to_entity||node||player_look_at||poi||mappin||fasttravel||custom_place||custom_room",
+        "position_way_helper": "normal||behind||forward",
+        "position_house_tag": "playerhouse01",
+        "range": 1.9900000095367,
+        "position_change_helper": "Write 'current' in position_tag for get current node,mappin, fasttravel, custom_place or custom_room. \n For poi if you write 'current' in position_poi_district you will get the current district, \n if you write 'current in position_poi_subdistrict you will get the current subdistrict. \n also if you write 'random' in position_poi_subdistrict or position_poi_district, you will get an 'random' value",
+        "position": "relative_to_entity"
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_4c",
+    "id": "trauma_mission_objective_4c",
+    "title": "Wait the order",
+    "state": 1,
+    "unlock": [
+      "trauma_mission_objective_5"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_4_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_4_trigger_new": {
+        "variable": "trauma_mission",
+        "key": "signal",
+        "helperTitle": "Score : Custom Variable",
+        "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+        "operator": "=",
+        "value": "okv",
+        "name": "check_variable"
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_5",
+    "id": "trauma_mission_objective_5",
+    "title": "Go back to the AV",
+    "state": 1,
+    "unlock": [
+      "trauma_mission_objective_6"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_3_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_3_trigger_new": {
+        "position_node_usegameplay": false,
+        "position_lookatdistance": 0,
+        "position_tag_helper": "judy01||playerhouse01||playerhouse_bed||",
+        "position_poi_district": "",
+        "position_poi_subdistrict": "",
+        "position_poi_from_position": false,
+        "position_poi_type": 1,
+        "position_house_way_helper": "default||enter||exit",
+        "position_spawnlocation": false,
+        "position_poi_is_for_car": false,
+        "position_range": 50,
+        "position_poi_use_location_tag": false,
+        "position_house_way": "default",
+        "position_poi_search": "type|subdistrict|district|tag",
+        "position_poi_searchdistance": "near|far|random",
+        "name": "entity_at_position",
+        "distance": 0,
+        "x": 0,
+        "y": 0,
+        "group": false,
+        "tag": "player",
+        "helperTitle": "Entity : At position",
+        "helper": "This trigger will be triggered when a custom entity is at position",
+        "z": 0,
+        "position_tag": "traumarescueAV",
+        "position_way": "normal",
+        "position_distance": 5,
+        "position_helper": "at||relative_to_entity||node||player_look_at||poi||mappin||fasttravel||custom_place||custom_room",
+        "range": 7,
+        "position_house_tag": "playerhouse01",
+        "position_way_helper": "normal||behind||forward",
+        "position_change_helper": "Write 'current' in position_tag for get current node,mappin, fasttravel, custom_place or custom_room. \n For poi if you write 'current' in position_poi_district you will get the current district, \n if you write 'current in position_poi_subdistrict you will get the current subdistrict. \n also if you write 'random' in position_poi_subdistrict or position_poi_district, you will get an 'random' value",
+        "position": "relative_to_entity"
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_6",
+    "id": "trauma_mission_objective_6",
+    "title": "Go back to MedCenter",
+    "state": 1,
+    "unlock": [
+      "trauma_mission_objective_7"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_3_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_3_trigger_new": {
+        "position_node_usegameplay": false,
+        "position_lookatdistance": 0,
+        "position_tag_helper": "judy01||playerhouse01||playerhouse_bed||",
+        "position_poi_district": "",
+        "position_poi_subdistrict": "",
+        "position_poi_from_position": false,
+        "position_poi_type": 1,
+        "position_house_way_helper": "default||enter||exit",
+        "position_spawnlocation": false,
+        "position_poi_is_for_car": false,
+        "position_range": 50,
+        "position_poi_use_location_tag": false,
+        "position_house_way": "default",
+        "position_poi_search": "type|subdistrict|district|tag",
+        "position_poi_searchdistance": "near|far|random",
+        "name": "entity_at_position",
+        "distance": 0,
+        "x": -1352,
+        "y": 1790,
+        "group": false,
+        "tag": "player",
+        "helperTitle": "Entity : At position",
+        "helper": "This trigger will be triggered when a custom entity is at position",
+        "z": 133,
+        "position_tag": "judy01",
+        "position_way": "normal",
+        "position_distance": 5,
+        "position_helper": "at||relative_to_entity||node||player_look_at||poi||mappin||fasttravel||custom_place||custom_room",
+        "range": 10,
+        "position_house_tag": "playerhouse01",
+        "position_way_helper": "normal||behind||forward",
+        "position_change_helper": "Write 'current' in position_tag for get current node,mappin, fasttravel, custom_place or custom_room. \n For poi if you write 'current' in position_poi_district you will get the current district, \n if you write 'current in position_poi_subdistrict you will get the current subdistrict. \n also if you write 'random' in position_poi_subdistrict or position_poi_district, you will get an 'random' value",
+        "position": "at"
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_7",
+    "id": "trauma_mission_objective_7",
+    "title": "Wait for the Sergeant",
+    "state": 1,
+    "unlock": [
+      "trauma_mission_objective_8"
+    ],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_3_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_3_trigger_new": {
+        "variable": "trauma_mission",
+        "key": "signal",
+        "helperTitle": "Score : Custom Variable",
+        "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+        "operator": "=",
+        "value": "sergent",
+        "name": "check_variable"
+      }
+    },
+    "resume_action": []
+  },
+  {
+    "tag": "trauma_mission_objective_8",
+    "id": "trauma_mission_objective_8",
+    "title": "Finish the mission",
+    "state": 1,
+    "unlock": [],
+    "requirement": [
+      [
+        "trauma_mission_objective_new_3_trigger_new"
+      ]
+    ],
+    "trigger": {
+      "trauma_mission_objective_new_3_trigger_new": {
+        "variable": "trauma_mission",
+        "key": "signal",
+        "helperTitle": "Score : Custom Variable",
+        "helper": "This trigger will be triggered when the value of the key of custom variable is the same that trigger value. Operator can be =, !=, contains, empty, notempty",
+        "operator": "=",
+        "value": "end",
+        "name": "check_variable"
+      }
+    },
+    "resume_action": []
+  }
+]

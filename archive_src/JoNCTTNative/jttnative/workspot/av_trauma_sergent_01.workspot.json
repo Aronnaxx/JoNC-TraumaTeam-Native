@@ -1,0 +1,398 @@
+{
+  "Header": {
+    "WolvenKitVersion": "9.0.1",
+    "WKitJsonVersion": "0.0.9",
+    "GameVersion": 2310,
+    "ExportedDateTime": "2026-10-31T19:51:00.7649789Z",
+    "DataType": "CR2W",
+    "ArchiveFileName": "C:\\Users\\wyant\\Documents\\cyberpunk-mod-patches\\JoNC-TraumaTeam-Native-source\\archive_src\\legacy\\workspot\\av_trauma_sergent_01.workspot"
+  },
+  "Data": {
+    "Version": 195,
+    "BuildVersion": 0,
+    "RootChunk": {
+      "$type": "workWorkspotResource",
+      "additionalAnimDatabases": [],
+      "animFeatures": [
+        {
+          "$type": "animAnimFeatureEntry",
+          "className": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "animAnimFeatureUpdateWorkspot"
+          },
+          "debugEnabled": 0,
+          "forceAllocate": 0,
+          "name": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "UpdateWorkspot"
+          }
+        }
+      ],
+      "cookingPlatform": "PLATFORM_PC",
+      "hackAlwaysSample": 0,
+      "hasMixerSlot": 0,
+      "isPaused": 0,
+      "jsonFilesDirectory": "",
+      "nodesToInit": [
+        {
+          "HandleId": "0",
+          "Data": {
+            "$type": "animAnimNode_Root",
+            "debugName": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "id": 4294967295,
+            "nodes": [
+              {
+                "HandleId": "1",
+                "Data": {
+                  "$type": "animAnimNode_Output",
+                  "debugName": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "id": 4294967295,
+                  "node": {
+                    "$type": "animPoseLink",
+                    "node": {
+                      "HandleId": "2",
+                      "Data": {
+                        "$type": "animAnimNode_WorkspotHub",
+                        "additionalLinkIds": [],
+                        "additionalLinks": [],
+                        "animLoopEventName": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "debugName": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "emotionalExpression": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "eventFilterType": "Default",
+                        "facialIdleFemaleAnimation": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "idle__neutral__female"
+                        },
+                        "facialIdleKey_FemaleAnimation": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "facialIdleKey_MaleAnimation": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "facialIdleMaleAnimation": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "idle__neutral__male"
+                        },
+                        "facialKeyWeight": 1,
+                        "id": 4294967295,
+                        "isCoverHubHack": 0,
+                        "mainEmotionalState": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "poseInfoLogger": null,
+                        "visAxes": 0,
+                        "visMask": null,
+                        "visNames": 0,
+                        "visPostPose": 0,
+                        "visPostPoseColor": {
+                          "$type": "Color",
+                          "Alpha": 0,
+                          "Blue": 0,
+                          "Green": 0,
+                          "Red": 0
+                        },
+                        "visPrePose": 0,
+                        "visPrePoseColor": {
+                          "$type": "Color",
+                          "Alpha": 0,
+                          "Blue": 0,
+                          "Green": 0,
+                          "Red": 0
+                        },
+                        "visRigPartMask": {
+                          "$type": "CName",
+                          "$storage": "string",
+                          "$value": "None"
+                        },
+                        "visWhenActive": 0
+                      }
+                    }
+                  },
+                  "poseInfoLogger": null,
+                  "visAxes": 0,
+                  "visMask": null,
+                  "visNames": 0,
+                  "visPostPose": 0,
+                  "visPostPoseColor": {
+                    "$type": "Color",
+                    "Alpha": 0,
+                    "Blue": 0,
+                    "Green": 0,
+                    "Red": 0
+                  },
+                  "visPrePose": 0,
+                  "visPrePoseColor": {
+                    "$type": "Color",
+                    "Alpha": 0,
+                    "Blue": 0,
+                    "Green": 0,
+                    "Red": 0
+                  },
+                  "visRigPartMask": {
+                    "$type": "CName",
+                    "$storage": "string",
+                    "$value": "None"
+                  },
+                  "visWhenActive": 0
+                }
+              }
+            ],
+            "outputNode": {
+              "$type": "animPoseLink",
+              "node": null
+            },
+            "poseInfoLogger": null,
+            "visAxes": 0,
+            "visMask": null,
+            "visNames": 0,
+            "visPostPose": 0,
+            "visPostPoseColor": {
+              "$type": "Color",
+              "Alpha": 0,
+              "Blue": 0,
+              "Green": 0,
+              "Red": 0
+            },
+            "visPrePose": 0,
+            "visPrePoseColor": {
+              "$type": "Color",
+              "Alpha": 0,
+              "Blue": 0,
+              "Green": 0,
+              "Red": 0
+            },
+            "visRigPartMask": {
+              "$type": "CName",
+              "$storage": "string",
+              "$value": "None"
+            },
+            "visWhenActive": 0
+          }
+        },
+        {
+          "HandleRefId": "1"
+        },
+        {
+          "HandleRefId": "2"
+        }
+      ],
+      "oneFrameToggle": 0,
+      "rootNode": {
+        "HandleRefId": "0"
+      },
+      "staticCommandsRig": {
+        "DepotPath": {
+          "$type": "ResourcePath",
+          "$storage": "uint64",
+          "$value": "0"
+        },
+        "Flags": "Default"
+      },
+      "timeDeltaMultiplier": 1,
+      "useAnimCommands": 0,
+      "useAnimCommandsForCrowd": 0,
+      "useAnimStaticCommands": 0,
+      "useLunaticMode": 0,
+      "variables": {
+        "HandleId": "3",
+        "Data": {
+          "$type": "animAnimVariableContainer",
+          "boolVariables": [],
+          "floatVariables": [],
+          "intVariables": [],
+          "quaternionVariables": [],
+          "transformVariables": [],
+          "vectorVariables": []
+        }
+      },
+      "workspotTree": {
+        "HandleId": "4",
+        "Data": {
+          "$type": "workWorkspotTree",
+          "animGraphSlotName": {
+            "$type": "CName",
+            "$storage": "string",
+            "$value": "WORKSPOT"
+          },
+          "autoTransitionBlendTime": 1,
+          "blacklistVisualTags": {
+            "$type": "redTagList",
+            "tags": []
+          },
+          "blendOutTime": 0,
+          "censorshipFlags": "0",
+          "customTransitionAnims": [],
+          "disableAutoAnimsetGeneraion": 0,
+          "dontInjectWorkspotGraph": 0,
+          "finalAnimsets": [
+            {
+              "$type": "workWorkspotAnimsetEntry",
+              "animations": {
+                "$type": "animAnimSetup",
+                "cinematics": [
+                  {
+                    "$type": "animAnimSetupEntry",
+                    "animSet": {
+                      "DepotPath": {
+                        "$type": "ResourcePath",
+                        "$storage": "string",
+                        "$value": "base\\animations\\npc\\archetype_characters\\dirtboy\\interactive_scene\\dirtboy__stand_wall_lean180__arms_crossed_front_lf_on_wall__01.anims"
+                      },
+                      "Flags": "Default"
+                    },
+                    "priority": 128,
+                    "variableNames": []
+                  }
+                ],
+                "gameplay": [],
+                "hash": "3984115834349103796"
+              },
+              "loadingHandles": [
+                {
+                  "DepotPath": {
+                    "$type": "ResourcePath",
+                    "$storage": "string",
+                    "$value": "base\\animations\\npc\\archetype_characters\\dirtboy\\interactive_scene\\dirtboy__stand_wall_lean180__arms_crossed_front_lf_on_wall__01.anims"
+                  },
+                  "Flags": "Default"
+                }
+              ],
+              "rig": {
+                "DepotPath": {
+                  "$type": "ResourcePath",
+                  "$storage": "string",
+                  "$value": "base\\characters\\base_entities\\man_base\\man_base.rig"
+                },
+                "Flags": "Soft"
+              }
+            }
+          ],
+          "frezeAtTheLastFrame_UseWithCaution": 0,
+          "globalProps": [],
+          "idCounter": 5,
+          "inertializationDurationEnter": 0.5,
+          "inertializationDurationExitForced": 0.200000003,
+          "inertializationDurationExitNatural": 0.5,
+          "initialActions": [],
+          "initialCanUseExits": 1,
+          "itemsPolicy": "ItemPolicy_SpawnItemOnIdleChange, ItemPolicy_DespawnItemOnIdleChange, ItemPolicy_DespawnItemOnReaction",
+          "propsPlaySyncAnim": 0,
+          "rootEntry": {
+            "HandleId": "5",
+            "Data": {
+              "$type": "workSequence",
+              "category": "Any",
+              "disableAutoTransition": 0,
+              "flags": 0,
+              "id": {
+                "$type": "workWorkEntryId",
+                "id": 1
+              },
+              "idleAnim": {
+                "$type": "CName",
+                "$storage": "string",
+                "$value": "None"
+              },
+              "list": [
+                {
+                  "HandleId": "6",
+                  "Data": {
+                    "$type": "workSequence",
+                    "category": "Any",
+                    "disableAutoTransition": 0,
+                    "flags": 0,
+                    "id": {
+                      "$type": "workWorkEntryId",
+                      "id": 3
+                    },
+                    "idleAnim": {
+                      "$type": "CName",
+                      "$storage": "string",
+                      "$value": "dirt__stand_wall_lean180__arms_crossed_front_lf_on_wall__01"
+                    },
+                    "list": [
+                      {
+                        "HandleId": "7",
+                        "Data": {
+                          "$type": "workPauseClip",
+                          "blendOutTime": 0.5,
+                          "flags": 32,
+                          "id": {
+                            "$type": "workWorkEntryId",
+                            "id": 5
+                          },
+                          "timeMax": 10,
+                          "timeMin": 5
+                        }
+                      }
+                    ],
+                    "loopInfinitely": 1,
+                    "previousLoopInfinitely": 0
+                  }
+                }
+              ],
+              "loopInfinitely": 0,
+              "previousLoopInfinitely": 0
+            }
+          },
+          "sequencesTimeLimit": 1,
+          "snapToTerrain": 0,
+          "statusEffectID": {
+            "$type": "TweakDBID",
+            "$storage": "uint64",
+            "$value": "0"
+          },
+          "tags": {
+            "$type": "redTagList",
+            "tags": []
+          },
+          "unmountBodyCarry": 1,
+          "useTimeLimitForSequences": 0,
+          "whitelistVisualTags": {
+            "$type": "redTagList",
+            "tags": []
+          },
+          "workspotRig": {
+            "DepotPath": {
+              "$type": "ResourcePath",
+              "$storage": "uint64",
+              "$value": "0"
+            },
+            "Flags": "Soft"
+          }
+        }
+      }
+    },
+    "EmbeddedFiles": []
+  }
+}

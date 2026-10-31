@@ -1,0 +1,391 @@
+{
+  "date": "2026-10-31",
+  "compile": {
+    "errors": 0,
+    "warnings": 0,
+    "ok": true,
+    "baseline": "errors=0 warnings=0 on 2.5 (2026-10-25)",
+    "details": []
+  },
+  "lint": {
+    "files_checked": 18,
+    "counts": {
+      "error": 0,
+      "warning": 0,
+      "info": 4
+    },
+    "ok": true,
+    "issues": [
+      {
+        "file": "JoNC-TraumaTeam-Native-source\\r6\\audioware\\JoNCTTNative\\audios.yaml",
+        "line": 0,
+        "severity": "info",
+        "message": "pyyaml not installed: only tab check done (pip install pyyaml needs Ethan's OK)"
+      },
+      {
+        "file": "JoNC-TraumaTeam-Native-source\\r6\\tweaks\\JoNCTTNative\\av.yaml",
+        "line": 0,
+        "severity": "info",
+        "message": "pyyaml not installed: only tab check done (pip install pyyaml needs Ethan's OK)"
+      },
+      {
+        "file": "JoNC-TraumaTeam-Native-v0.1.0.zip:r6/audioware/JoNCTTNative/audios.yaml",
+        "line": 0,
+        "severity": "info",
+        "message": "pyyaml not installed: only tab check done (pip install pyyaml needs Ethan's OK)"
+      },
+      {
+        "file": "JoNC-TraumaTeam-Native-v0.1.0.zip:r6/tweaks/JoNCTTNative/av.yaml",
+        "line": 0,
+        "severity": "info",
+        "message": "pyyaml not installed: only tab check done (pip install pyyaml needs Ethan's OK)"
+      }
+    ]
+  },
+  "archive": {
+    "rc": 0,
+    "count": 8,
+    "lines": [
+      "jttnative\\workspot\\av_trauma_seated_npc_02.workspot",
+      "jttnative\\workspot\\av_trauma_sergent_01.workspot",
+      "jttnative\\workspot\\av_trauma_seated_npc_injured.workspot",
+      "jttnative\\base\\cyberscript\\trauma_av.ent",
+      "jttnative\\workspot\\av_trauma_player_injured.workspot",
+      "jttnative\\workspot\\av_trauma_player_seated.workspot",
+      "jttnative\\workspot\\av_trauma_seated_npc_01.workspot",
+      "jttnative\\workspot\\av_trauma_seated_npc_03.workspot"
+    ],
+    "truncated": false
+  },
+  "deployment": {
+    "identical": 0,
+    "different": 0,
+    "missing": 78
+  },
+  "zip": {
+    "zip": "C:\\Users\\wyant\\Documents\\cyberpunk-mod-patches\\JoNC-TraumaTeam-Native-v0.1.0.zip",
+    "files": [
+      {
+        "path": "archive/pc/mod/JoNCTTNative.archive",
+        "size": 32768
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/audios.yaml",
+        "size": 4702
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_355.wav",
+        "size": 1092174
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_all injuries.wav",
+        "size": 297294
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_almost good.wav",
+        "size": 147534
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_area is safe.wav",
+        "size": 159054
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_area safe keep.wav",
+        "size": 815412
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_arrive soon.wav",
+        "size": 301902
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_ass covered.wav",
+        "size": 252344
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_carnage.wav",
+        "size": 518478
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_chaotic.wav",
+        "size": 365242
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_client_awake.wav",
+        "size": 117582
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_confidential.wav",
+        "size": 311118
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_cover us.wav",
+        "size": 364110
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_do what m.wav",
+        "size": 131406
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_end t1.wav",
+        "size": 1624398
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_end v.wav",
+        "size": 1527630
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_evacuate_f.wav",
+        "size": 458574
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_evacuate_m.wav",
+        "size": 407886
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_focus near saving.wav",
+        "size": 241998
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_fortunately.wav",
+        "size": 453966
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_go back AV.wav",
+        "size": 244302
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_gogogo.wav",
+        "size": 101454
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_good hand.wav",
+        "size": 548430
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_good luck.wav",
+        "size": 396366
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_hardlife.wav",
+        "size": 200526
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_heart rate f.wav",
+        "size": 258126
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_heart rate low f.wav",
+        "size": 163662
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_heart rate low m.wav",
+        "size": 212046
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_heart rate m.wav",
+        "size": 237390
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_heart_rate_trauma.wav",
+        "size": 147534
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_heyheyhey.wav",
+        "size": 205134
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_hostile.wav",
+        "size": 297294
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_hurry.wav",
+        "size": 315726
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_is lucky.wav",
+        "size": 479310
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_loss squad.wav",
+        "size": 573774
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_martinez.wav",
+        "size": 474702
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_medical hud.wav",
+        "size": 241998
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_memory.wav",
+        "size": 795302
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_mission v stay alive f.wav",
+        "size": 138318
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_mission v stay alive m.wav",
+        "size": 154446
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_move out.wav",
+        "size": 184398
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_no hostile.wav",
+        "size": 327246
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_protect area.wav",
+        "size": 354894
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_protect the client.wav",
+        "size": 318030
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_recovery ok.wav",
+        "size": 205134
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_rescue extraction not possible.wav",
+        "size": 207438
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_rescue send squad.wav",
+        "size": 274254
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_rescue squad living.wav",
+        "size": 159054
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_rescue they will protect.wav",
+        "size": 223566
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_secure the area.wav",
+        "size": 391758
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_sending.wav",
+        "size": 241998
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_sergentjoy.wav",
+        "size": 149838
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_shine.wav",
+        "size": 253518
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_shutup.wav",
+        "size": 334158
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_somechrome.wav",
+        "size": 195918
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_stay focus.wav",
+        "size": 191310
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_surgery block.wav",
+        "size": 338766
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_t1 apply first aid.wav",
+        "size": 912462
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_take that.wav",
+        "size": 280734
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_thanks help.wav",
+        "size": 744270
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_thanks joining.wav",
+        "size": 412494
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_thatshort.wav",
+        "size": 96846
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_tons of paper.wav",
+        "size": 686670
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_up to doc.wav",
+        "size": 274254
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_v apply first aid.wav",
+        "size": 949326
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_wait my instructions.wav",
+        "size": 421710
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_whatever.wav",
+        "size": 953934
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_whizzy.wav",
+        "size": 216654
+      },
+      {
+        "path": "r6/audioware/JoNCTTNative/traumateam_yessir.wav",
+        "size": 133710
+      },
+      {
+        "path": "r6/scripts/JoNCTTNative/Content.reds",
+        "size": 3318
+      },
+      {
+        "path": "r6/scripts/JoNCTTNative/ObjectiveGraph.reds",
+        "size": 1217
+      },
+      {
+        "path": "r6/scripts/JoNCTTNative/Patient.reds",
+        "size": 2163
+      },
+      {
+        "path": "r6/scripts/JoNCTTNative/PatientCard.reds",
+        "size": 18325
+      },
+      {
+        "path": "r6/scripts/JoNCTTNative/Preview.reds",
+        "size": 1472
+      },
+      {
+        "path": "r6/scripts/JoNCTTNative/RecruitmentBoard.reds",
+        "size": 11360
+      },
+      {
+        "path": "r6/scripts/JoNCTTNative/VoiceContent.reds",
+        "size": 13428
+      },
+      {
+        "path": "r6/tweaks/JoNCTTNative/av.yaml",
+        "size": 115
+      }
+    ],
+    "file_count": 78,
+    "problems": [],
+    "ok": true
+  },
+  "python_tests": {
+    "passed": 8,
+    "scope": "Preservation, generated content and asset isolation only"
+  },
+  "live_tested": false,
+  "playable_full_port": false
+}
